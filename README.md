@@ -39,6 +39,15 @@ Custom agent definitions that extend OpenCode's capabilities. Each agent is conf
 
 **Note on Models:** These agents are designed to leverage **opencode-go** and **opencode-zen-free** models, which are the free tier models available in OpenCode. This makes the configurations accessible to everyone without requiring paid API keys. The default models are easily customizable - see the [Model Configuration](#%EF%B8%8F-model-configuration) section below.
 
+### Agent Profiles
+
+This repository groups agents into profiles so you can choose the set that matches your cost/availability needs.
+
+- `agents/subagents/` (default): primary set of subagents for general use. Reference with `@subagents/<agent>`.
+- `agents/subagents_economy/`: economy-tier variants intended for low-credit, lower-cost tasks. Files here are named with the `_economy` suffix and are referenced as `@subagents_economy/<agent>_economy` (for example `@subagents_economy/planner_economy`). Use these when you want to minimize credit usage for simpler tasks.
+
+When copying configs to your OpenCode setup, pick the profile that fits your budget and performance requirements.
+
 ### Commands (`/commands/`)
 Custom slash commands that can be invoked directly in OpenCode for common operations.
 
