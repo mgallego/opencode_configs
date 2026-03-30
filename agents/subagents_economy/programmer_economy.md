@@ -1,5 +1,5 @@
 ---
-description: Programmer focus in implement plans and specs (free-tier copy)
+description: Programmer focus in implement plans and specs (economy copy)
 mode: subagent
 model: opencode-go/minimax-m2.7
 temperature: 0.3

@@ -1,5 +1,5 @@
 ---
-description: Specialist at breaking down development plans into small, executable tasks organized in TODO format for programmers (free-tier copy)
+description: Specialist at breaking down development plans into small, executable tasks organized in TODO format for programmers (economy copy)
 mode: subagent
 model: opencode-go/glm-5
 temperature: 0.2

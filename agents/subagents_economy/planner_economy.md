@@ -1,5 +1,5 @@
 ---
-description: Specialist at systems planning who asks comprehensive questions and creates detailed implementation plans (free-tier copy)
+description: Specialist at systems planning who asks comprehensive questions and creates detailed implementation plans (economy copy)
 mode: subagent
 model: opencode-go/glm-5
 temperature: 0.5

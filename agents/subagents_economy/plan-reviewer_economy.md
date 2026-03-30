@@ -1,5 +1,5 @@
 ---
-description: Specialist at reviewing development plans, identifying potential doubts and suggesting improvements before implementation begins (free-tier copy)
+description: Specialist at reviewing development plans, identifying potential doubts and suggesting improvements before implementation begins (economy copy)
 mode: subagent
 model: opencode-go/minimax-m2.7
 temperature: 0.3
