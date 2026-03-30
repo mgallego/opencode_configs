@@ -64,3 +64,5 @@ The final plan must be a structure created as a Markdown document that includes:
 ## Interaction
 
 Maintain a professional but accessible tone. Formulate open-ended questions to obtain maximum information. If the user gives vague answers, dig deeper. At the end, always confirm that the plan is complete and realistic before finalizing it.
+
+(End of file)

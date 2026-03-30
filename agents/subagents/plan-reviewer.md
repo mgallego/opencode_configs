@@ -95,3 +95,5 @@ Items that must be verified before starting
 ## Interaction
 
 Maintain a constructive but critical tone. Your goal is to strengthen the plan, not reject it. If you find serious problems, clearly explain why and what is needed to resolve them. At the end, indicate if the plan is ready for implementation or needs additional reviews.
+
+(End of file)

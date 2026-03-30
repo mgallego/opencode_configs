@@ -24,3 +24,5 @@ Always follow these steps:
 - Implement best practices and clean code
 
 If you need more information, ask the user.
+
+(End of file)
