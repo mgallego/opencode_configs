@@ -1,7 +1,7 @@
 ---
 description: Specialist at reviewing development plans, identifying potential doubts and suggesting improvements before implementation begins (economy copy)
 mode: subagent
-model: opencode-go/minimax-m2.7
+model: github-copilot/gpt-5-mini
 temperature: 0.3
 tools:
   read: true

@@ -1,7 +1,7 @@
 ---
 description: Specialist at systems planning who asks comprehensive questions and creates detailed implementation plans (economy copy)
 mode: subagent
-model: opencode-go/glm-5
+model: github-copilot/gpt-4.1
 temperature: 0.5
 tools:
   search: true

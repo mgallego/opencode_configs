@@ -1,7 +1,7 @@
 ---
 description: Agent responsible for coordinating different agents (economy variant)
 mode: primary
-model: opencode-go/kimi-k2.5
+model: github-copilot/gpt-4.1
 temperature: 0.2
 tools:
   write: true

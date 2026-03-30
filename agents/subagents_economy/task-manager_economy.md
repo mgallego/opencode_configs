@@ -1,7 +1,7 @@
 ---
 description: Specialist at breaking down development plans into small, executable tasks organized in TODO format for programmers (economy copy)
 mode: subagent
-model: opencode-go/glm-5
+model: opencode/minimax-m2.5-free
 temperature: 0.2
 tools:
   write: true

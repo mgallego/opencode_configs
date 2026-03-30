@@ -1,7 +1,7 @@
 ---
 description: Specialist at exploring and analyzing codebase structure, reading relevant files to provide context for development planning (economy copy)
 mode: subagent
-model: opencode/minimax-m2.5-free
+model: github-copilot/gpt-4o
 temperature: 0.1
 tools:
   read: true
