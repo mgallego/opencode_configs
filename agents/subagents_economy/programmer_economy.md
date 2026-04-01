@@ -1,7 +1,7 @@
 ---
 description: Programmer focus in implement plans and specs (economy copy)
 mode: subagent
-model: opencode-go/minimax-m2.7
+model: opencode/minimax-m2.5-free
 temperature: 0.3
 tools:
   write: true

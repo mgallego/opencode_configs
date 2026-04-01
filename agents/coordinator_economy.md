@@ -1,7 +1,7 @@
 ---
 description: Agent responsible for coordinating different agents (economy variant)
 mode: primary
-model: github-copilot/gpt-4.1
+model: opencode/nemotron-3-super-free
 temperature: 0.2
 tools:
   write: true

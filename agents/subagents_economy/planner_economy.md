@@ -1,7 +1,7 @@
 ---
 description: Specialist at systems planning who asks comprehensive questions and creates detailed implementation plans (economy copy)
 mode: subagent
-model: github-copilot/gpt-4.1
+model: opencode/big-pickle
 temperature: 0.5
 tools:
   search: true
