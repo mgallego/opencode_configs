@@ -53,6 +53,7 @@ Custom slash commands that can be invoked directly in OpenCode for common operat
 
 **Available Commands:**
 - **`to-master`** - Automates the process of merging feature branches into master
+- **`deploy`** - Automates deployment by running `to-master` and creating a pull request to `production-deployment`
 
 ### Skills (`/skills/`)
 Reusable skill modules that provide specialized capabilities to agents.

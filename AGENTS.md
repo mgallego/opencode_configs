@@ -33,9 +33,9 @@ done
 
 ### Validate README Consistency
 ```bash
-# Check that all agents are documented in README
-grep -l "\.md" agents/*.md | xargs -I{} basename {} .md | while read agent; do
-  if ! grep -q "$agent" README.md; then echo "Agent '$agent' not documented in README"; fi
+# Check that all agents and commands are documented in README
+grep -l "\.md" agents/*.md commands/*.md | xargs -I{} basename {} .md | while read item; do
+  if ! grep -q "$item" README.md; then echo "Item '$item' not documented in README"; fi
 done
 ```
 
@@ -148,3 +148,10 @@ tools:
 | List all agents | `ls agents/*.md` |
 | Check models used | `grep "^model:" agents/*.md commands/*.md` |
 | Find agents by mode | `grep -l "^mode: subagent" agents/*.md` |
+
+---
+
+## Commands
+
+- **`to-master`**: Automates merging feature branches into master.
+- **`deploy`**: Automates deployment by running `to-master` and creating a pull request to `production-deployment`.
