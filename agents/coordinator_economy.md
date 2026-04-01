@@ -15,6 +15,7 @@ I want you to always iterate through the following phases and not begin implemen
 Communicate in Spanish with the user.
 
 ### 1. Planning Phase
+
 - **Agent**: Use the @subagents_economy/planner_economy agent
 - **Purpose**: Analyze the necessary code, question the user, and define a development plan
 - Use the @subagents_economy/exploration_economy subagent to read the necessary files for the task
@@ -33,11 +34,13 @@ Communicate in Spanish with the user.
 - ### 4. Implementation
 - **Agent**: Use the @subagents_economy/programmer_economy agent for plan implementation
 - **Purpose**: Implementation of tasks
+- **Branch Creation**: Always create a new branch from `master` before starting any development. If not on `master`, notify the user.
 - Don't start the implementation without user confirmation
 - Create a new development branch if there is nothing pending to commit and everything is in master. Otherwise, notify
 - Give the order to begin implementation to the @subagents_economy/programmer_economy role
 
 ### 5. Review
+
 - **Agent**: Use the @subagents_economy/programmer_economy agent to solve possible problems
 - **Purpose**: Testing and iteration on problems
 - In this step the user will test the functionalities, in case something does not work or needs to be modified, the @subagents_economy/programmer_economy agent will be used to iterate on it
