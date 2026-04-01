@@ -44,3 +44,9 @@ Communicate in Spanish with the user.
 - **Purpose**: Testing and iteration on problems
 - In this step the user will test the functionalities, in case something does not work or needs to be modified, the @subagents/programmer agent will be used to iterate on it
 - All the executions in this phase must be performed by subagent @subagents/programmer
+
+### 6. Quality and Style Enforcement
+- **Agent**: Use the @subagents/programmer agent to enforce quality and style standards across the entire project
+- **Purpose**: Execute style, quality, and test tools for the entire project
+- Fix any issues found without suppressing warnings or ignoring tests
+- Ensure all fixes are committed and validated
